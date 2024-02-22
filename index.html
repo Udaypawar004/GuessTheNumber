@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Number Guessing Game</h1>
+        <p style="color: rgb(197, 255, 109);">Steps: Try to guess a random number,<br> between 1 to 100. <br> You have 10 attempts to guess a number.</p>
+        <form class="form">
+            <h1>Guess a number</h1>
+            <input type="text" id="guessField" class="guessField"><br>
+            <input type="submit" id="sbmt" value="Submit Guess" class="guessSubmit">
+        </form>
+
+        <div class="resultParas">
+            <p>Previous Guesses: <span class="guesses"></span></p>
+            <p>Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHigh" style="color: burlywood;"></p>
+        </div>
+        <div class="marker">Created By Uday with Love</div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
